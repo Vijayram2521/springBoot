@@ -5,7 +5,7 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 @Qualifier("smtpMail")
 public class smtpMailSender implements sendMail{
     private static Log log = LogFactory.getLog(smtpMailSender.class) ;

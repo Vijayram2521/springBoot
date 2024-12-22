@@ -17,8 +17,8 @@ public class mailController {
 //        this.mailsender = smtpMailSender ;
 //    }
 
-    public mailController(@Qualifier("smtpMail") sendMail mailsender) {
-        this.mailsender = mailsender;
+    public mailController(sendMail smtpMailSender) {
+        this.mailsender = smtpMailSender;
     }
 
     @RequestMapping("/mail")

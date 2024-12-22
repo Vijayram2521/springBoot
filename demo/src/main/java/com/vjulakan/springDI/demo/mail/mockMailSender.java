@@ -4,7 +4,7 @@ import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class mockMailSender implements  sendMail{
     private static Log log = LogFactory.getLog(mockMailSender.class) ;
     @Override
